@@ -69,6 +69,11 @@ img{
   width: 500px;
 }
 
+.btn-contact{
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   table{
     font-size: 9px;
