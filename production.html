@@ -45,11 +45,28 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">ГЛАВНАЯ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">ПРОДУКЦИЯ</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">ПРОДУКЦИЯ</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Вся продукция</a></li>
+              <li><a class="dropdown-item" href="Goods/traditional-equipment.html">Традиционное геодезическое<br>оборудование</a></li>
+              <li><a class="dropdown-item" href="Goods/gnss-equipment.html">Геодезическое GNSS (GPS+ГЛОНАСС)<br>оборудование</a></li>
+              <li><a class="dropdown-item" href="Goods/gnss-receivers.html">GNSS приемники</a></li>
+              <li><a class="dropdown-item" href="Goods/accessories.html">Аксессуары геодезические</a></li>
+              <li><a class="dropdown-item" href="Goods/innetrial-satellite-navigation-systems.html">Инерциально-спутниковые системы<br>навигации</a></li>
+              <li><a class="dropdown-item" href="Goods/hydrographic-equipment.html">Гидрографическое оборудование</a></li>
+              <li><a class="dropdown-item" href="Goods/industrial-controllers.html">Промышленные КПК / контроллеры</a></li>
+              <li><a class="dropdown-item" href="Goods/software.html">Программное обеспечение</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">УСЛУГИ</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">УСЛУГИ</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="services.html">Все услуги</a></li>
+              <li><a class="dropdown-item" href="Services/service1.html">Метрологическая калибровка и<br>поверка приборов</a></li>
+              <li><a class="dropdown-item" href="Services/service2.html">Топографо-геодезические работы</a></li>
+              <li><a class="dropdown-item" href="Services/service3.html">Сервисный центр</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
@@ -82,12 +99,68 @@
         <h1 class="display-6 fw-bold">Все товары по категориям</h1>
         <br>
 
-        <div class="container-new">
+        <div class="container-new container-justify">
           <a href="Goods/traditional-equipment.html">
             <div class="card">
-              <img src="Images/1.jpg" class="card-img-top" alt="...">
+              <img src="Goods/Traditional-equipment/Electronic-tachymeters/south-navistation.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Традиционное геодезическое оборудование</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/gnss-equipment.html">
+            <div class="card">
+              <img src="Goods/GNSS-equipment/GNSS-receivers-RTK/south-galaxy-g1-plus.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Геодезическое GNSS (GPS+ГЛОНАСС) оборудование</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/gnss-receivers.html">
+            <div class="card">
+              <img src="Goods/GNSS-receivers/GNSS-receivers-forestry/n-60.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">GNSS приемники</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/accessories.html">
+            <div class="card">
+              <img src="Goods/Accessories/Prysm-systems-and-miniprisms/south-tps-mini-105a.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Аксессуары геодезические</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/innetrial-satellite-navigation-systems.html">
+            <div class="card">
+              <img src="Goods/Inertial-satellite-navigation-systems/novatel-span-oem-imu-eg320n.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Инерциально-спутниковые системы навигации</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/hydrographic-equipment.html">
+            <div class="card">
+              <img src="Goods/Hydrographic-equipment/south-sde-19.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Гидрографическое оборудование</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/industrial-controllers.html">
+            <div class="card">
+              <img src="Goods/Industrial-controllers/south-h6-android-survxsurvpad.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Промышленные КПК / контроллеры</p>
+              </div>
+            </div>
+          </a>
+          <a href="Goods/software.html">
+            <div class="card">
+              <img src="Goods/Software/digitals.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Программное обеспечение</p>
               </div>
             </div>
           </a>
@@ -96,13 +169,13 @@
     </div>
 
     <div class="row align-items-md-stretch">
-      <div class="col-md-6">
+      <div class="col-md-6 container-margin">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
           <p>Традиционное геодезическое оборудование: электронные тахеометры и теодолиты, цифровые и оптические нивелиры, лазерные инструменты от компании South (КНР).<br>Компания South Surveying & Mapping Instruments работает на международном рынке более 20 лет и является крупнейшим производственным предприятием геодезического оборудования на территории континентального Китая (пять фабрик и представительства по всему миру).</p>
           <img src="Images/1.jpg" alt="" width="100%">
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 container-margin">
         <div class="h-100 p-5 bg-light border rounded-3">
           <p>GNSS технологии, оборудование и программное обеспечение: приемники, антенны, комплектующие для решения задач геодезической и гидрографической съемки, профессионального высокоточного позиционирования и навигации. Представлены GNSS (GPS и GPS+ГЛОНАСС) приемники для съемки с пост-сеансной обработкой, RTK приемники и системы, CORS GNSS станции, ОЕМ продукция и антенны.<br>Производство: NovAtel Inc. (Канада), South (КНР), Altus P.S. (США) и Carlson Software (США)<br>Полевые контроллеры, программное обеспечение и широкий выбор аксессуаров для геодезической съемки.</p>
           <img src="Images/2.png" alt="" width="100%">              
@@ -110,7 +183,6 @@
       </div>
     </div>
 
-    <br>
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
