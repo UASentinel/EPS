@@ -30,6 +30,12 @@ img{
   justify-content: space-evenly;
 }
 
+.container-coordinates{
+  justify-content: space-between;
+  margin-top: -20px;
+  font-size: 15px;
+}
+
 .product-info{
   display: flex;
   width: 100%;
@@ -100,6 +106,24 @@ img{
   font-size: 20px;
 }
 
+.phone{
+  margin: auto;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+  text-align: right;
+}
+
+.carousel-div{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carousel-text{
+  text-shadow: #1b1b1b 3px 3px 2px;
+  color: white;
+}
+
 @media (max-width: 768px) {
   table{
     font-size: 9px;
@@ -109,5 +133,8 @@ img{
   }
   .product-info{
     justify-content: center;
+  }
+  .container-coordinates{
+    font-size: 6px;
   }
 }
