@@ -82,6 +82,24 @@ img{
   margin-bottom: 20px;
 }
 
+.price-true{
+  color: green;
+  text-align: center;
+}
+
+.price-false{
+  color: #d60000;
+  text-align: center;
+}
+.price{
+  font-weight: bold;
+}
+
+.category{
+  font-weight: bold;
+  font-size: 20px;
+}
+
 @media (max-width: 768px) {
   table{
     font-size: 9px;
